@@ -1,0 +1,1747 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Bebas+Neue&family=Noto+Sans+KR:wght@900&family=Oswald:wght@400;500;600;700&family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main_container {
+    max-width: 1280px;
+    background-color: rgb(214, 214, 214);
+    margin: auto;
+    padding: 20px;
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#main_container #logo_top {
+    display: none;
+}
+
+#add_container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 20px;
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+/* ************** Header CSS ************* */
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#header .header_text {
+    width: 75%;
+}
+
+#header .header_text h1 {
+    width: 100%;
+    font-size: 85px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    line-height: 70px;
+    color: #000000b5;
+    letter-spacing: -3px;
+}
+
+#header .header_text h2 {
+    display: inline;
+    font-size: 74px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #008fdf;
+}
+
+#header .header_text h3 {
+    display: inline;
+    font-size: 52px;
+    word-spacing: 4px;
+    color: #000000b5;
+}
+
+#header .header_logo {
+    width: 25%;
+    height: 200px;
+}
+
+#header img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ************** Top Ranker CSS ************* */
+#topranker {
+    margin: 20px 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+}
+
+#topranker .box1 {
+    width: auto;
+    -webkit-clip-path: polygon(100% 0, 99% 67%, 93.40% 100%, 0% 100%, 0 44%, 0% 0%);
+    clip-path: polygon(100% 0, 99% 67%, 93.40% 100%, 0% 100%, 0 44%, 0% 0%);
+    align-self: flex-end;
+}
+
+#topranker .image_box {
+    display: flex;
+}
+
+#topranker .image_box .image1 {
+    position: relative;
+    color: white;
+    width: 175px;
+    text-align: center;
+}
+
+#topranker .image_box img {
+    width: 175px;
+    position: relative;
+    top: 5px;
+}
+
+#topranker .image_box .absolute {
+    width: 175px;
+    position: absolute;
+    bottom: 25%;
+}
+
+#topranker .image_box .bg-blue {
+    background-color: #239eff;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#topranker .bg-blue h3 {
+    font-size: 14px;
+    margin: 2px 0;
+    text-shadow: 0 0 3px white;
+}
+
+#topranker .image_box .some_text p {
+    font-size: 11px;
+}
+
+#topranker .image_box .some_text {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+#topranker .peramid div {
+    padding: 5px 0;
+}
+
+#topranker .peramid {
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    left: 40%;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    -webkit-clip-path: polygon(40% 0, 60% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(40% 0, 60% 0, 100% 100%, 0% 100%);
+}
+
+#topranker .peramid1 {
+    height: 100px;
+    background-color: #008fdf;
+    box-shadow: 0px 7px 10px #142969;
+}
+
+#topranker .peramid1 p {
+    font-size: 13px;
+}
+
+#topranker .peramid2 {
+    height: 100px;
+    background-color: #0877b5;
+    box-shadow: 0px 7px 10px #142969;
+}
+
+#topranker .peramid3 {
+    height: 100px;
+    background-color: #15c1e3;
+    box-shadow: 0px 7px 10px #142969;
+}
+
+#topranker .peramid4 {
+    height: 100px;
+    background-color: #0d9bb1;
+    box-shadow: 0px 7px 10px #142969;
+}
+
+#topranker .peramid p {
+    text-align: center;
+    vertical-align: baseline;
+    font-weight: 600;
+    color: white;
+}
+
+#topranker .box2 {
+    width: auto;
+    -webkit-clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 7% 100%, 1% 66%, 0 0);
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 7% 100%, 1% 66%, 0 0);
+    align-self: flex-end;
+}
+
+#topranker .image_box {
+    display: flex;
+}
+
+#topranker .image_box .image2 {
+    position: relative;
+    color: white;
+    width: 175px;
+    text-align: center;
+}
+
+#topranker .image_box img {
+    width: 175px;
+    position: relative;
+    top: 5px;
+}
+
+#topranker .image_box .absolute {
+    width: 175px;
+    position: absolute;
+    bottom: 25%;
+}
+
+#topranker .image_box .bg-blue {
+    background-color: #239eff;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#topranker .image_box .some_text {
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+/* *************** Student List **************** */
+#studentlist {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+#studentlist .left {
+    width: 70%;
+    margin-right: 20px;
+}
+
+#studentlist hr {
+    background-color: #4e4c4c;
+    margin: 15px 0;
+    height: 6px;
+    border-radius: 2px;
+}
+
+#studentlist .text1 {
+    color: white;
+    background-color: #4e4c4c;
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    bottom: 37px;
+    font-weight: bold;
+}
+
+#studentlist .gridlayout1 {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 10px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: normal;
+}
+
+#studentlist .gridlayout1 p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+#studentlist .gridlayout1 img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    box-shadow: 0 0 2px 5px rgb(172, 167, 167);
+    border: 1px solid black;
+}
+
+#studentlist .gridlayout1 .text-blue {
+    color: rgb(21, 175, 241);
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: 0px 0px 1px rgb(21, 175, 241);
+}
+
+/* -------- Grid layout 2----------- */
+#studentlist .gridlayout2 {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 9px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: normal;
+}
+
+#studentlist .gridlayout2 p {
+    margin: 4px 0;
+    font-size: 11px;
+}
+
+#studentlist .gridlayout2 img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 0 2px 5px rgb(172, 167, 167);
+    border: 1px solid black;
+}
+
+#studentlist .gridlayout2 .text-blue {
+    color: rgb(21, 175, 241);
+    font-weight: bold;
+    font-size: 10px;
+    text-shadow: 0px 0px 1px rgb(21, 175, 241);
+}
+
+/* -------- Grid layout 3----------- */
+#studentlist .gridlayout3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    gap: 25px 8px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: normal;
+}
+
+#studentlist .gridlayout3 p {
+    margin: 4px 0;
+    font-size: 10px;
+}
+
+#studentlist .gridlayout3 img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 0 2px 5px rgb(172, 167, 167);
+    border: 1px solid black;
+}
+
+#studentlist .gridlayout3 .text-blue {
+    color: rgb(21, 175, 241);
+    font-weight: bold;
+    font-size: 9px;
+    text-shadow: 0px 0px 1px rgb(21, 175, 241);
+}
+
+/* -------- CBT box----------- */
+#studentlist .flextext {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+#studentlist .cbtbox {
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: auto;
+}
+
+#studentlist .cbtbox .textbox1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#studentlist .cbtbox .textbox1 h2 {
+    text-align: center;
+    color: #008fdf;
+    width: 47%;
+    color: rgb(21, 175, 241);
+    font-weight: bold;
+    text-shadow: 0px 0px 1px rgb(9, 107, 149);
+}
+
+#studentlist .cbtbox .textbox1 div {
+    height: 15px;
+    width: 27%;
+    align-self: center;
+    background-image: repeating-linear-gradient(119deg, #ccc7c7, white 5px);
+    border-radius: 4px;
+}
+
+#studentlist .main_textbox {
+    margin: 15px 0;
+}
+
+#studentlist .cbtbox .textbox2 {
+    float: left;
+}
+
+#studentlist .cbtbox .textbox2 .weare {
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+    line-height: 13px;
+}
+
+#studentlist .cbtbox .textbox2 .cbt {
+    font-size: 95px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 90px;
+    font-weight: 800;
+    background: linear-gradient(to right, #356c8d, #33a7ef);
+    background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#studentlist .cbtbox .textbox2 .cbt2 {
+    color: rgb(79, 76, 76);
+    font-weight: 700;
+    font-size: 19px;
+}
+
+#studentlist .cbtbox .textbox3 {
+    float: left;
+    padding: 20px 13px;
+    color: #6c6b6b;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 800;
+}
+
+#studentlist .cbtbox .textbox3 .ready_inst {
+    font-size: 19px;
+}
+
+#studentlist .cbtbox .textbox3 .future {
+    font-size: 50px;
+    line-height: 34px;
+}
+
+#studentlist .cbtbox .textbox3 .only_ready {
+    font-size: 22px;
+}
+
+#studentlist .cbtbox .textbox4 {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    justify-content: space-between;
+    gap: 15px;
+    color: #6c6b6b;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+#studentlist .cbtbox .textbox4 p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+}
+
+#studentlist .cbtbox .textbox4 span {
+    font-size: 30px;
+}
+
+#studentlist .left .right_text {
+    text-align: end;
+    padding: 4px 0;
+    margin-top: 5px;
+}
+
+/* -------- Right Side ----------- */
+#studentlist .right {
+    width: 30%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#studentlist .right .box1 .text {
+    background-color: #4e4c4c;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 10px;
+    line-height: 34px;
+    word-spacing: 4px;
+}
+
+#studentlist .right .container {
+    margin: 15px;
+}
+
+#studentlist .container .classes_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#studentlist .container .classes_flex h2 {
+    font-size: 28px;
+    color: #15aff1;
+}
+
+#studentlist .container .classes_flex p {
+    font-size: 20px;
+    line-height: 21px;
+}
+
+#studentlist .container .classes_flex .medical {
+    border-left: 3px solid #4e4c4c;
+    padding-left: 15px;
+}
+
+#studentlist .container .year_courses {
+    background-color: #e1e1e1;
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+#studentlist .container .right_text {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: end;
+}
+
+#studentlist .container .foundation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#studentlist .container .foundation h2 {
+    font-size: 28px;
+    color: #15aff1;
+}
+
+#studentlist .container .foundation>p {
+    margin: 2px 0;
+    font-size: 12px;
+}
+
+#studentlist .container .calander {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+    margin-bottom: 50px;
+}
+
+#studentlist .container .calander .acst h1 {
+    color: #a63232;
+    font-size: 61px
+}
+
+#studentlist .container .calander .acst p {
+    font-size: 15px;
+    margin-top: -15px;
+}
+
+#studentlist .container .calander .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid #a63232;
+    background-color: #f0f4c9;
+    padding: 5px 10px;
+    gap: 10px;
+}
+
+#studentlist .container .calander .date h1 {
+    color: #a63232;
+    font-size: 43px;
+}
+
+#studentlist .container .calander .date p {
+    margin-top: -10px;
+}
+
+#studentlist .container .calander .date h3 {
+    background-color: white;
+    margin-top: 5px;
+    padding: 1px;
+    font-size: 20px;
+}
+
+#studentlist .admission {
+    background-color: #15aff1;
+    padding: 5px 15px;
+    text-align: center;
+    height: 100%;
+
+}
+
+#studentlist .admission h1 {
+    color: white;
+    background-color: rgb(78 76 76);
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: -25px;
+    width: 78%;
+    font-size: 27px;
+}
+
+#studentlist .admission .text_yellow1 {
+    color: rgb(247, 226, 0);
+    font-size: 26px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 1px rgb(247, 226, 0);
+}
+
+#studentlist .admission .text_yellow2 {
+    color: rgb(247, 226, 0);
+    font-size: 15px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 1px rgb(247, 226, 0);
+    margin-top: -8px;
+}
+
+#studentlist .admission p {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#studentlist .admission hr {
+    height: 5px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+#studentlist .admission .table1 {
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+#studentlist .admission table {
+    text-align: start;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+#studentlist .admission table .text-right {
+    text-align: end;
+}
+
+#studentlist .admission table img {
+    width: 60px;
+}
+
+#studentlist .admission hr {
+    height: 3px;
+    height: 3px;
+    margin: 13px 0;
+}
+
+#studentlist .last_text {
+    color: white;
+    line-height: 20px;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+/* *************** Akash Info ******************** */
+#akashinfo {
+    display: flex;
+}
+
+#akashinfo .akash_br {
+    width: 70%;
+}
+
+#akashinfo .branchinfo {
+    display: flex;
+}
+
+#akashinfo .branchinfo .scanner {
+    width: 125px;
+    padding: 10px;
+    background-color: #ccc7c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 10px;
+    height: 100%;
+}
+
+#akashinfo .branchinfo .scanner div {
+    width: auto;
+    text-align: center;
+}
+
+#akashinfo .branchinfo .scanner img {
+    width: 100px;
+}
+
+#akashinfo .branchinfo .scanner .text {
+    line-height: 21px;
+    margin-top: 5px;
+}
+
+#akashinfo .branchinfo .scanner .text .scanfor {
+    font-size: 26px;
+    font-weight: bolder;
+    word-spacing: -3px;
+    letter-spacing: -1px;
+}
+
+#akashinfo .branchinfo .scanner .text .nearest {
+    font-size: 29px;
+    font-weight: bolder;
+    word-spacing: -3px;
+    letter-spacing: -1px;
+}
+
+#akashinfo .branchinfo .scanner .text .center {
+    font-size: 25px;
+    font-weight: bolder;
+    word-spacing: -3px;
+    letter-spacing: -1px;
+}
+
+#akashinfo .branchinfo .scanner .text .contact {
+    font-size: 15px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: -1px;
+}
+
+#akashinfo .branchinfo .branches .text-blue {
+    color: #15aff1;
+    font-weight: 500;
+}
+
+#akashinfo .branchinfo .branches div {
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+#akashinfo .akash_br .address {
+    margin: 10px 0;
+}
+
+#akashinfo .logo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#akashinfo .logo .text_logo span {
+    color: black;
+}
+
+#akashinfo .logo .text_logo {
+    border-top: 1px solid black;
+    font-size: 26px;
+    color: red;
+    font-weight: 500;
+}
+
+#akashinfo .logo .secondtext_logo {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* **************** Contact Details ************** */
+#contactdtls .contactdtl {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+#contactdtls .contactdtl .contact_num {
+    font-size: 19px;
+}
+
+#contactdtls .contactdtl .bg-blue {
+    background-color: #1ba7e5;
+    border-radius: 15px;
+    padding: 2px 10px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#contactdtls .contactdtl .marginrgt {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#contactdtls .contactdtl .social_link {
+    background-color: #4e4c4c;
+    display: flex;
+    gap: 30px;
+    padding: 2px 20px;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactdtls .contactdtl .social_link a {
+    color: white;
+    text-decoration: none;
+}
+
+#contactdtls .contactdtl .social_link .website:hover a {
+    color: #00b6e8;
+}
+
+#contactdtls .contactdtl .social_link .instagram:hover a {
+    color: #f35d00;
+}
+
+#contactdtls .contactdtl .social_link .facebook:hover a {
+    color: #0044e2;
+}
+
+#contactdtls .contactdtl .social_link .twitter:hover a {
+    color: #01bdf1;
+}
+
+#contactdtls .para {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 1150px) {
+    #topranker .box1 {
+        -webkit-clip-path: polygon(100% 0, 100% 7%, 96% 100%, 0% 100%, 0 44%, 0% 0%);
+        clip-path: polygon(100% 0, 100% 73%, 96% 100%, 0% 100%, 0 44%, 0% 0%);
+    }
+
+    #topranker .box2 {
+        -webkit-clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 4.6% 100%, 0 73%, 0 0);
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 4.6% 100%, 0 73%, 0 0);
+    }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 992px) {
+    #topranker .box1 {
+        -webkit-clip-path: polygon(100% 0, 100% 7%, 96% 100%, 0% 100%, 0 44%, 0% 0%);
+        clip-path: polygon(100% 0, 100% 73%, 96% 100%, 0% 100%, 0 44%, 0% 0%);
+    }
+
+    #topranker .box2 {
+        -webkit-clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 5% 100%, 0 68%, 0 0);
+        clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 5% 100%, 0 68%, 0 0);
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 992px) {
+
+    #header .header_text h1 {
+        font-size: 6.8vw;
+    }
+
+    #header .header_text h3 {
+        font-size: 4vw;
+    }
+
+    #header .header_text h2 {
+        font-size: 6vw;
+    }
+
+    #header .header_logo {
+        width: 23%;
+        height: auto;
+    }
+
+    #topranker .image_box img {
+        width: 13vw;
+    }
+
+    #topranker .image_box .image1 {
+        width: 13vw;
+    }
+
+    #topranker .image_box .image2 {
+        width: 13vw;
+    }
+
+    #topranker .peramid {
+        width: 20.2vw;
+        left: 39.7%;
+    }
+
+    .margin-2px {
+        margin-left: 10px;
+    }
+
+    #topranker .image_box .absolute {
+        width: 13vw;
+        bottom: 30%;
+    }
+
+    #studentlist .gridlayout1 img {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    #studentlist .gridlayout1 {
+        font-size: 1vw;
+    }
+
+    #studentlist .gridlayout1 p {
+        font-size: 1.3vw;
+    }
+
+    #studentlist .gridlayout1 .text-blue {
+        font-size: 1.1vw;
+    }
+
+    #studentlist .gridlayout2 img {
+        width: 7vw;
+        height: 7vw;
+    }
+
+    #studentlist .gridlayout2 p {
+        font-size: 1.2vw;
+    }
+
+    #studentlist .gridlayout2 .text-blue {
+        font-size: 1vw;
+    }
+
+    #studentlist .gridlayout3 p {
+        font-size: 1vw;
+    }
+
+    #studentlist .gridlayout3 .text-blue {
+        font-size: 0.8vw;
+    }
+
+    #studentlist .gridlayout3 img {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    #studentlist .cbtbox .textbox1 div {
+        width: 21vw;
+    }
+
+    #studentlist .cbtbox .textbox1 h2 {
+        width: 54vw;
+    }
+
+    #studentlist .cbtbox .textbox2 .weare {
+        font-size: 1.7vw;
+    }
+
+    #studentlist .cbtbox .textbox2 .cbt2 {
+        font-size: 1.8vw;
+    }
+
+    #studentlist .cbtbox .textbox2 .cbt {
+        font-size: 9vw;
+    }
+
+    #studentlist .cbtbox .textbox3 .ready_inst {
+        font-size: 1.4vw;
+    }
+
+    #studentlist .cbtbox .textbox3 .future {
+        font-size: 4vw;
+    }
+
+    #studentlist .cbtbox .textbox3 .only_ready {
+        font-size: 2.2vw;
+    }
+
+    #studentlist .cbtbox .textbox4 {
+        font-size: 1.3vw;
+    }
+
+    #studentlist .right .box1 .text {
+        font-size: 2.2vw;
+    }
+
+    #studentlist .container .classes_flex p {
+        font-size: 1.6vw;
+        line-height: 20px;
+    }
+
+    #studentlist .container .classes_flex h2 {
+        font-size: 2.2vw;
+    }
+
+    #studentlist .container .right_text {
+        font-size: 1.1vw;
+    }
+
+    #studentlist .container .year_courses {
+        font-size: 1.1vw;
+    }
+
+    #studentlist .container .calander .acst h1 {
+        font-size: 5vw;
+    }
+
+    #studentlist .container .calander .date h1 {
+        font-size: 3.5vw;
+    }
+
+    #studentlist .container .calander .date h3 {
+        font-size: 1.7vw;
+    }
+
+    #studentlist .admission h1 {
+        margin-top: -18px;
+        width: 22vw;
+        font-size: 2vw;
+    }
+
+    #studentlist .admission p {
+        font-size: 1.4vw;
+    }
+
+    #studentlist .admission .text_yellow1 {
+        font-size: 2vw;
+        margin: 3px 0;
+    }
+
+    #studentlist .admission .text_yellow2 {
+        font-size: 1.3vw;
+    }
+
+    #studentlist .admission table {
+        font-size: 1.2vw;
+    }
+
+    #studentlist .last_text {
+        font-size: 1.1vw;
+    }
+
+    #akashinfo .logo .text_logo {
+        font-size: 2.2vw;
+    }
+
+    #akashinfo .logo .secondtext_logo {
+        font-size: 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #header {
+        width: 100%;
+    }
+
+    #header .header_text {
+        width: 100%;
+    }
+
+    #header .header_text h1 {
+        font-size: 9vw;
+    }
+
+    #header .header_text h2 {
+        font-size: 8vw;
+    }
+
+    #header .header_text h3 {
+        font-size: 5vw;
+        word-spacing: 0;
+    }
+
+    #header .header_logo {
+        display: none;
+    }
+
+    #topranker {
+        flex-direction: column;
+        position: static;
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+    }
+
+    #topranker .image_box {
+        justify-content: center;
+    }
+
+    #topranker .image_box .image1,
+    #topranker .image_box .image2 {
+        width: 32vw;
+    }
+
+    #topranker .image_box img {
+        width: 31vw;
+    }
+
+    #topranker .image_box .absolute {
+        bottom: 30%;
+        width: 30vw;
+        font-size: 3vw;
+    }
+
+    #topranker .bg-blue h3 {
+        font-size: 3vw;
+    }
+
+    #topranker .image_box .some_text p {
+        font-size: 2.5vw;
+    }
+
+    #topranker .box1 {
+        width: 100%;
+        clip-path: none;
+        order: 2;
+    }
+
+    #topranker .box2 {
+        width: 100%;
+        clip-path: none;
+        order: 3;
+    }
+
+    #topranker .peramid div {
+        height: 15vw;
+    }
+
+    #topranker .peramid div h1 {
+        font-size: 5vw;
+    }
+
+    #topranker .peramid div p {
+        font-size: 4vw;
+    }
+
+    #topranker .peramid1 p {
+        font-size: 2.5vw !important;
+    }
+
+    #topranker .peramid {
+        width: 50vw;
+        height: auto;
+        position: static;
+        order: 1;
+        align-self: center;
+    }
+
+    #studentlist {
+        display: block;
+        justify-content: start;
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    #studentlist .left {
+        width: 100%;
+    }
+
+    #studentlist .text1 {
+        font-size: 14px;
+    }
+
+    #studentlist .gridlayout1 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #studentlist .gridlayout1 img {
+        width: 19vw;
+        height: 19vw;
+    }
+
+    #studentlist .gridlayout1 p {
+        font-size: 2.5vw;
+    }
+
+    #studentlist .gridlayout1 .text-blue {
+        font-size: 2.3vw;
+    }
+
+    /* -------- Grid layout 2----------- */
+    #studentlist .gridlayout2 {
+        grid-template-columns: auto auto auto auto;
+        gap: 25px 0;
+    }
+
+    #studentlist .gridlayout2 p {
+        font-size: 2vw;
+    }
+
+    #studentlist .gridlayout2 img {
+        width: 16vw;
+        height: 16vw;
+    }
+
+    #studentlist .gridlayout2 .text-blue {
+        font-size: 2vw;
+    }
+
+    /* -------- Grid layout 3----------- */
+    #studentlist .gridlayout3 {
+        grid-template-columns: auto auto auto auto;
+        gap: 25px 0;
+    }
+
+    #studentlist .gridlayout3 p {
+        font-size: 2vw;
+    }
+
+    #studentlist .gridlayout3 img {
+        width: 14vw;
+        height: 14vw;
+    }
+
+    #studentlist .gridlayout3 .text-blue {
+        font-size: 2vw;
+    }
+
+    #studentlist .gridlayout3 .col-span-1 {
+        grid-column: 1/3;
+    }
+
+    #studentlist .gridlayout3 .col-span-2 {
+        grid-column: 3/5;
+    }
+
+    /* -------- CBT box----------- */
+    #studentlist .flextext {
+        display: block;
+        text-align: end;
+    }
+
+    #studentlist .cbtbox .textbox2 {
+        margin-top: 37px;
+        margin-left: 5%;
+    }
+
+    #studentlist .cbtbox .textbox3 {
+        float: right;
+        padding: 20px 26px;
+        margin-right: 4%;
+    }
+
+    #studentlist .cbtbox .textbox4 {
+        float: right;
+        clear: right;
+        margin-right: 8%;
+    }
+
+    /* -------- Right Side ----------- */
+    #studentlist .right {
+        width: 100%;
+    }
+
+    #studentlist .right .box1 .text {
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    #studentlist .container .classes_flex h2 {
+        font-size: 5vw;
+    }
+
+    #studentlist .container .classes_flex p {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+
+    #studentlist .container .year_courses {
+        margin-top: 10px;
+        padding: 8px 15px;
+        font-size: 3vw;
+    }
+
+    #studentlist .container .right_text {
+        font-size: 3vw;
+    }
+
+    #akashinfo {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    #akashinfo .akash_br {
+        width: 100%;
+    }
+
+    #akashinfo .logo {
+        width: 100%;
+    }
+
+    #akashinfo .branchinfo {
+        flex-direction: column;
+    }
+
+    #akashinfo .branchinfo .scanner {
+        width: 250px;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+    }
+
+    #studentlist .admission table {
+        text-align: center;
+        width: 88%;
+    }
+
+    #contactdtls .contactdtl .marginrgt1 {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #contactdtls .contactdtl .social_link {
+        width: 288px;
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 609px) {
+    #main_container {
+        margin: auto;
+        padding: 10px;
+    }
+
+    #main_container #logo_top {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    #logo_top img {
+        width: 35vw;
+    }
+
+    #logo_top .text_logo {
+        color: red;
+        border-top: 2px solid black;
+        font-size: 6vw;
+    }
+
+    #logo_top .secondtext_logo {
+        font-size: 3vw;
+    }
+
+    #add_container {
+        padding: 10px;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #header .header_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #header .header_text h1 {
+        font-size: 8vw;
+        line-height: 7vw;
+        letter-spacing: 0;
+        margin-top: 0;
+    }
+
+    #topranker .image_box img {
+        width: 28vw;
+    }
+
+    #topranker .image_box .image1,
+    #topranker .image_box .image2 {
+        width: 30vw;
+    }
+
+    #topranker .image_box .absolute {
+        width: 29vw;
+        bottom: 40%;
+        font-size: 2.5vw;
+    }
+
+    #topranker .bg-blue h3 {
+        font-size: 4vw;
+    }
+
+    #topranker .image_box .some_text p {
+        font-size: 2.9vw;
+    }
+
+    #topranker .peramid div {
+        height: 15vw;
+    }
+
+    #topranker .peramid {
+        width: 50vw;
+        height: auto;
+        position: static;
+        order: 1;
+        align-self: center;
+    }
+
+    #topranker .peramid div p {
+        font-size: 3.5vw;
+    }
+
+    #studentlist {
+        display: block;
+        justify-content: start;
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    #studentlist .left {
+        width: 100%;
+    }
+
+    #studentlist .text1 {
+        font-size: 2.2vw;
+    }
+
+    #studentlist hr {
+        margin: 19px 0;
+        height: 4px;
+    }
+
+    #studentlist .gridlayout1 {
+        gap: 10px 30px;
+    }
+
+    #studentlist .gridlayout1 img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    #studentlist .gridlayout1 p {
+        font-size: 4vw;
+    }
+
+    #studentlist .gridlayout1 .text-blue {
+        font-size: 4vw;
+    }
+
+    /* -------- Grid layout 2----------- */
+    #studentlist .gridlayout2 {
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+
+    #studentlist .gridlayout2 p {
+        font-size: 3.5vw;
+    }
+
+    #studentlist .gridlayout2 img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    #studentlist .gridlayout2 .text-blue {
+        font-size: 3.5vw;
+    }
+
+    /* -------- Grid layout 3----------- */
+    #studentlist .gridlayout3 {
+        grid-template-columns: auto auto auto !important;
+        gap: 10px 20px;
+        justify-content: space-evenly;
+    }
+
+    #studentlist .gridlayout3 p {
+        font-size: 3.2vw;
+    }
+
+    #studentlist .gridlayout3 img {
+        width: 21vw;
+        height: 21vw;
+    }
+
+    #studentlist .gridlayout3 .text-blue {
+        font-size: 3.2vw;
+    }
+
+    #studentlist .gridlayout3 .col-span-1 {
+        grid-column: auto
+    }
+
+    #studentlist .gridlayout3 .col-span-2 {
+        grid-column: auto;
+    }
+
+    /* -------- CBT box----------- */
+    #studentlist .flextext {
+        display: block;
+        text-align: end;
+    }
+
+    #studentlist .cbtbox .textbox1 div {
+        display: none;
+    }
+
+    #studentlist .cbtbox .textbox1 h2 {
+        width: 100%;
+        font-size: 5.5vw;
+    }
+
+    #studentlist .main_textbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #studentlist .cbtbox .textbox2 {
+        float: none;
+        margin: 10px;
+        padding: 0;
+    }
+
+    #studentlist .cbtbox .textbox3 {
+        float: none;
+        margin: 10px;
+        padding: 0;
+    }
+
+    #studentlist .cbtbox .textbox4 {
+        float: none;
+        margin: 10px;
+        padding: 0;
+    }
+
+    #studentlist .cbtbox .textbox2 .weare {
+        font-size: 6vw;
+        line-height: 13px;
+    }
+
+    #studentlist .cbtbox .textbox2 .cbt {
+        font-size: 24vw;
+        line-height: 21vw;
+    }
+
+    #studentlist .cbtbox .textbox2 .cbt2 {
+        font-size: 4.8vw;
+    }
+
+    #studentlist .cbtbox .textbox3 .future {
+        font-size: 11vw;
+        line-height: 34px;
+    }
+
+    #studentlist .cbtbox .textbox3 .ready_inst {
+        font-size: 4vw;
+    }
+
+    #studentlist .cbtbox .textbox3 .only_ready {
+        font-size: 5vw;
+    }
+
+    #studentlist .cbtbox .textbox4 p {
+        font-size: 3vw;
+    }
+
+    #studentlist .flextext {
+        font-size: 3vw;
+    }
+
+    /* -------- Right Side ----------- */
+    #studentlist .right .box1 .text {
+        font-size: 6vw;
+        line-height: 7vw;
+    }
+
+    #studentlist .container .calander .acst h1 {
+        font-size: 14vw;
+    }
+
+    #studentlist .container .calander .acst p {
+        font-size: 5vw;
+    }
+
+    #studentlist .container .calander .date h1 {
+        font-size: 12vw;
+    }
+
+    #studentlist .container .calander .date p {
+        font-size: 5vw;
+    }
+
+    #studentlist .container .calander .date h3 {
+        font-size: 5vw;
+    }
+
+    #studentlist .container .calander .date {
+        border-top: 6px solid #a63232;
+        padding: 3px 8px;
+    }
+
+    #studentlist .admission h1 {
+        margin-top: -16px;
+        width: 90%;
+        font-size: 7vw;
+    }
+
+    #studentlist .admission .text_yellow1 {
+        font-size: 8vw;
+    }
+
+    #studentlist .admission p {
+        font-size: 4.6vw;
+    }
+
+    #studentlist .admission .text_yellow2 {
+        font-size: 11px;
+    }
+
+    #studentlist .admission table {
+        text-align: start !important;
+        width: 100% !important;
+        font-size: 3.7vw;
+    }
+
+    #studentlist .last_text {
+        font-size: 3.7vw;
+        line-height: 6vw;
+    }
+
+    #studentlist .left .right_text {
+        font-size: 3vw;
+    }
+
+    #akashinfo {
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+    }
+
+    #akashinfo .akash_br {
+        width: 100%;
+    }
+
+    #akashinfo .logo {
+        width: 75vw;
+    }
+
+    #akashinfo .logo img {
+        width: 60vw;
+        height: auto;
+    }
+
+    #akashinfo .logo .text_logo {
+        font-size: 6.3vw;
+    }
+
+    #akashinfo .logo .secondtext_logo {
+        font-size: 3.5vw;
+    }
+
+    #akashinfo .branchinfo .scanner {
+        width: 88vw !important;
+        margin: 10px;
+    }
+
+    #akashinfo .branchinfo .scanner img {
+        width: 38vw;
+    }
+
+    #akashinfo .branchinfo .scanner .text {
+        line-height: 8vw;
+    }
+
+    #akashinfo .branchinfo .scanner .text .scanfor {
+        font-size: 10vw;
+    }
+
+    #akashinfo .branchinfo .scanner .text .nearest {
+        font-size: 11vw;
+    }
+
+    #akashinfo .branchinfo .scanner .text .center {
+        font-size: 10vw;
+    }
+
+    #akashinfo .branchinfo .scanner .text .contact {
+        font-size: 6vw;
+    }
+
+    #akashinfo .branchinfo {
+        flex-direction: column;
+    }
+
+    #akashinfo .branchinfo .scanner {
+        width: 250px;
+        flex-direction: row;
+        align-self: center;
+        justify-content: center;
+    }
+
+    #studentlist .admission table {
+        text-align: center;
+        width: 88%;
+    }
+
+    #contactdtls .contactdtl .marginrgt1 {
+        display: block;
+    }
+
+    #contactdtls .contactdtl {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 25px 0;
+    }
+
+    #contactdtls .contactdtl .contact_num {
+        font-size: 6vw;
+    }
+
+    #contactdtls .contactdtl .social_link {
+        width: 100%;
+        gap: 0 20px;
+    }
+
+    #contactdtls .contactdtl .social_link a {
+        font-size: 5vw;
+    }
+}
